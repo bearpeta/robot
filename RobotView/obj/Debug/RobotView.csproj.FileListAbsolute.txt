@@ -11,3 +11,17 @@ D:\VS2008\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.SwitchView.resource
 D:\VS2008\Robot\RobotView\bin\Debug\Resources\Resource.resx
 D:\VS2008\Robot\RobotView\bin\Debug\Resources\Resource.Designer.cs
 D:\VS2008\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.LedView.resources
+D:\GIT\robot\RobotView\bin\Debug\Resources\Resource.resx
+D:\GIT\robot\RobotView\bin\Debug\Resources\Resource.Designer.cs
+D:\GIT\robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotView.dll
+D:\GIT\robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotView.pdb
+D:\GIT\robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotCtrl.dll
+D:\GIT\robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotCtrl.pdb
+D:\GIT\robot\RobotView\obj\Debug\ResolveAssemblyReference.cache
+D:\GIT\robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.ConsoleView.resources
+D:\GIT\robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.LedView.resources
+D:\GIT\robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.Resources.Resource.resources
+D:\GIT\robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.SwitchView.resources
+D:\GIT\robot\RobotView\obj\Debug\RobotView.csproj.GenerateResource.Cache
+D:\GIT\robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.dll
+D:\GIT\robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.pdb

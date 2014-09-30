@@ -14,6 +14,8 @@ namespace TestConsole
         public Form1()
         {
             InitializeComponent();
+
+            this.ledView1.State = true;
         }
     }
 }

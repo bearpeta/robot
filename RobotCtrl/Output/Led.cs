@@ -7,5 +7,6 @@ namespace Hslu.Csa.Team6.RobotCtrl.Output
 {
     public class Led
     {
+
     }
 }

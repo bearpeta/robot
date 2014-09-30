@@ -3,3 +3,8 @@ D:\VS2008\Robot\RobotIO\bin\Release\RobotIO.pdb
 D:\VS2008\Robot\RobotIO\obj\Release\ResolveAssemblyReference.cache
 D:\VS2008\Robot\RobotIO\obj\Release\RobotIO.dll
 D:\VS2008\Robot\RobotIO\obj\Release\RobotIO.pdb
+D:\GIT\robot\RobotIO\bin\Release\RobotIO.dll
+D:\GIT\robot\RobotIO\bin\Release\RobotIO.pdb
+D:\GIT\robot\RobotIO\obj\Release\ResolveAssemblyReference.cache
+D:\GIT\robot\RobotIO\obj\Release\RobotIO.dll
+D:\GIT\robot\RobotIO\obj\Release\RobotIO.pdb
