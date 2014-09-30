@@ -1,5 +1,5 @@
-C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\bin\Debug\RobotCtrl.dll
-C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\bin\Debug\RobotCtrl.pdb
-C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\obj\Debug\RobotCtrl.dll
-C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\obj\Debug\RobotCtrl.pdb
+D:\VS2008\Robot\RobotCtrl\obj\Debug\ResolveAssemblyReference.cache
+D:\VS2008\Robot\RobotCtrl\bin\Debug\Hslu.Csa.Team6.RobotCtrl.dll
+D:\VS2008\Robot\RobotCtrl\bin\Debug\Hslu.Csa.Team6.RobotCtrl.pdb
+D:\VS2008\Robot\RobotCtrl\obj\Debug\Hslu.Csa.Team6.RobotCtrl.dll
+D:\VS2008\Robot\RobotCtrl\obj\Debug\Hslu.Csa.Team6.RobotCtrl.pdb

@@ -1,0 +1,5 @@
+D:\VS2008\Robot\RobotCtrl\bin\Release\Hslu.Csa.Team6.RobotCtrl.dll
+D:\VS2008\Robot\RobotCtrl\bin\Release\Hslu.Csa.Team6.RobotCtrl.pdb
+D:\VS2008\Robot\RobotCtrl\obj\Release\ResolveAssemblyReference.cache
+D:\VS2008\Robot\RobotCtrl\obj\Release\Hslu.Csa.Team6.RobotCtrl.dll
+D:\VS2008\Robot\RobotCtrl\obj\Release\Hslu.Csa.Team6.RobotCtrl.pdb

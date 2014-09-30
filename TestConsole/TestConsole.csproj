@@ -4,11 +4,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{7B9A833E-E336-4BD6-9F86-41083477FD5E}</ProjectGuid>
+    <ProjectGuid>{76D1263F-66E7-40B6-AFD5-8ED781611C8C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestConsole</RootNamespace>
-    <AssemblyName>TestConsole</AssemblyName>
+    <RootNamespace>Hslu.Csa.Team6.TestConsole</RootNamespace>
+    <AssemblyName>Hslu.Csa.Team6.TestConsole</AssemblyName>
     <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <PlatformFamilyName>WindowsCE</PlatformFamilyName>
     <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
@@ -76,19 +76,20 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RobotCtrl\RobotCtrl.csproj">
-      <Project>{4BD7751F-162C-4BEE-94DD-A6690E8415F1}</Project>
+      <Project>{0E1174FD-D7F7-4E6F-82C8-C029F97439F0}</Project>
       <Name>RobotCtrl</Name>
     </ProjectReference>
     <ProjectReference Include="..\RobotIO\RobotIO.csproj">
-      <Project>{85C43A5A-55DC-48D0-86F0-E9AC6D2FF744}</Project>
+      <Project>{DF7CF5B3-8F66-4364-8151-FA3F56DEDD46}</Project>
       <Name>RobotIO</Name>
     </ProjectReference>
     <ProjectReference Include="..\RobotView\RobotView.csproj">
-      <Project>{D65B02F3-7035-4663-B8E0-1F756430898B}</Project>
+      <Project>{2B585939-761C-45B9-8346-108F07C82B65}</Project>
       <Name>RobotView</Name>
     </ProjectReference>
   </ItemGroup>

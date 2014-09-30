@@ -1,0 +1,13 @@
+D:\VS2008\Robot\RobotView\obj\Release\ResolveAssemblyReference.cache
+D:\VS2008\Robot\RobotView\obj\Release\Hslu.Csa.Team6.RobotView.Resources.Resource.resources
+D:\VS2008\Robot\RobotView\obj\Release\RobotView.csproj.GenerateResource.Cache
+D:\VS2008\Robot\RobotView\bin\Release\Hslu.Csa.Team6.RobotView.dll
+D:\VS2008\Robot\RobotView\bin\Release\Hslu.Csa.Team6.RobotView.pdb
+D:\VS2008\Robot\RobotView\bin\Release\Hslu.Csa.Team6.RobotCtrl.dll
+D:\VS2008\Robot\RobotView\bin\Release\Hslu.Csa.Team6.RobotCtrl.pdb
+D:\VS2008\Robot\RobotView\obj\Release\Hslu.Csa.Team6.RobotView.dll
+D:\VS2008\Robot\RobotView\obj\Release\Hslu.Csa.Team6.RobotView.pdb
+D:\VS2008\Robot\RobotView\obj\Release\Hslu.Csa.Team6.RobotView.SwitchView.resources
+D:\VS2008\Robot\RobotView\bin\Release\Resources\Resource.resx
+D:\VS2008\Robot\RobotView\bin\Release\Resources\Resource.Designer.cs
+D:\VS2008\Robot\RobotView\obj\Release\Hslu.Csa.Team6.RobotView.LedView.resources
