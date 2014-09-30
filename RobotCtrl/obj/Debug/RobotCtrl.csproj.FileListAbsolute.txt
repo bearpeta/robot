@@ -1,0 +1,5 @@
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\bin\Debug\RobotCtrl.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\bin\Debug\RobotCtrl.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\obj\Debug\RobotCtrl.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotCtrl\obj\Debug\RobotCtrl.pdb

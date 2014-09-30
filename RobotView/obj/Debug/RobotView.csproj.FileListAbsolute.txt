@@ -1,0 +1,7 @@
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\RobotView.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\RobotView.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\RobotCtrl.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\RobotCtrl.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\RobotView.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\RobotView.pdb
