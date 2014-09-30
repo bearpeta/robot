@@ -11,3 +11,16 @@ D:\VS2008\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.SwitchView.resource
 D:\VS2008\Robot\RobotView\bin\Debug\Resources\Resource.resx
 D:\VS2008\Robot\RobotView\bin\Debug\Resources\Resource.Designer.cs
 D:\VS2008\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.LedView.resources
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.LedView.resources
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.Resources.Resource.resources
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.SwitchView.resources
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\RobotView.csproj.GenerateResource.Cache
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\Resources\Resource.resx
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\Resources\Resource.Designer.cs
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotView.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotView.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotCtrl.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\bin\Debug\Hslu.Csa.Team6.RobotCtrl.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotView\obj\Debug\Hslu.Csa.Team6.RobotView.pdb

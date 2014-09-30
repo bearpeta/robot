@@ -3,3 +3,8 @@ D:\VS2008\Robot\RobotIO\bin\Debug\RobotIO.pdb
 D:\VS2008\Robot\RobotIO\obj\Debug\ResolveAssemblyReference.cache
 D:\VS2008\Robot\RobotIO\obj\Debug\RobotIO.dll
 D:\VS2008\Robot\RobotIO\obj\Debug\RobotIO.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotIO\bin\Debug\RobotIO.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotIO\bin\Debug\RobotIO.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotIO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotIO\obj\Debug\RobotIO.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\RobotIO\obj\Debug\RobotIO.pdb
