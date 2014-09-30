@@ -2,3 +2,7 @@
 /RobotIO/bin/*
 /RobotView/bin/*
 /TestConsole/bin/*
+/RobotCtrl/obj/*
+/RobotIO/obj/*
+/RobotView/obj/*
+/TestConsole/obj/*
