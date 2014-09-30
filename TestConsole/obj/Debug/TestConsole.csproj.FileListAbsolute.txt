@@ -14,6 +14,7 @@ D:\VS2008\Robot\TestConsole\bin\Debug\Hslu.Csa.Team6.RobotView.pdb
 D:\VS2008\Robot\TestConsole\bin\Debug\Resources\Resource.Designer.cs
 D:\VS2008\Robot\TestConsole\bin\Debug\Resources\Resource.resx
 D:\VS2008\Robot\TestConsole\obj\Debug\TestConsole.Form1.resources
+<<<<<<< HEAD
 D:\GIT\robot\TestConsole\bin\Debug\Resources\Resource.Designer.cs
 D:\GIT\robot\TestConsole\bin\Debug\Resources\Resource.resx
 D:\GIT\robot\TestConsole\bin\Debug\Hslu.Csa.Team6.TestConsole.exe
@@ -30,3 +31,21 @@ D:\GIT\robot\TestConsole\obj\Debug\Hslu.Csa.Team6.TestConsole.Properties.Resourc
 D:\GIT\robot\TestConsole\obj\Debug\TestConsole.csproj.GenerateResource.Cache
 D:\GIT\robot\TestConsole\obj\Debug\Hslu.Csa.Team6.TestConsole.exe
 D:\GIT\robot\TestConsole\obj\Debug\Hslu.Csa.Team6.TestConsole.pdb
+=======
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\obj\Debug\TestConsole.Form1.resources
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\obj\Debug\Hslu.Csa.Team6.TestConsole.Properties.Resources.resources
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\obj\Debug\TestConsole.csproj.GenerateResource.Cache
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\obj\Debug\Hslu.Csa.Team6.TestConsole.exe
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Resources\Resource.Designer.cs
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Resources\Resource.resx
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Hslu.Csa.Team6.TestConsole.exe
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Hslu.Csa.Team6.TestConsole.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Hslu.Csa.Team6.RobotCtrl.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Hslu.Csa.Team6.RobotView.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\RobotIO.dll
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Hslu.Csa.Team6.RobotCtrl.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\RobotIO.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\bin\Debug\Hslu.Csa.Team6.RobotView.pdb
+C:\Users\Alessandro\Documents\Visual Studio 2008\Projects\Robot\TestConsole\obj\Debug\Hslu.Csa.Team6.TestConsole.pdb
+>>>>>>> 2feffc77e03a948e257a3095e45fcc7a4ddb2f7a

@@ -4,7 +4,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{0E1174FD-D7F7-4E6F-82C8-C029F97439F0}</ProjectGuid>
+    <ProjectGuid>{4BD7751F-162C-4BEE-94DD-A6690E8415F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hslu.Csa.Team6.RobotCtrl</RootNamespace>

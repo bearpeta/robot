@@ -4,7 +4,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{76D1263F-66E7-40B6-AFD5-8ED781611C8C}</ProjectGuid>
+    <ProjectGuid>{7B9A833E-E336-4BD6-9F86-41083477FD5E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Hslu.Csa.Team6.TestConsole</RootNamespace>
