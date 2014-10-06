@@ -30,25 +30,8 @@
         private void InitializeComponent()
         {
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
-            this.ledView1 = new Hslu.Csa.Team6.RobotView.LedView();
-            this.switchView1 = new Hslu.Csa.Team6.RobotView.SwitchView();
             this.consoleView1 = new Hslu.Csa.Team6.RobotView.ConsoleView();
             this.SuspendLayout();
-            // 
-            // ledView1
-            // 
-            this.ledView1.Location = new System.Drawing.Point(187, 120);
-            this.ledView1.Name = "ledView1";
-            this.ledView1.Size = new System.Drawing.Size(20, 20);
-            this.ledView1.State = false;
-            this.ledView1.TabIndex = 0;
-            // 
-            // switchView1
-            // 
-            this.switchView1.Location = new System.Drawing.Point(288, 59);
-            this.switchView1.Name = "switchView1";
-            this.switchView1.Size = new System.Drawing.Size(20, 40);
-            this.switchView1.TabIndex = 1;
             // 
             // consoleView1
             // 
@@ -65,8 +48,6 @@
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(638, 455);
             this.Controls.Add(this.consoleView1);
-            this.Controls.Add(this.switchView1);
-            this.Controls.Add(this.ledView1);
             this.Menu = this.mainMenu1;
             this.Name = "Form1";
             this.Text = "Form1";
@@ -76,8 +57,6 @@
 
         #endregion
 
-        private Hslu.Csa.Team6.RobotView.LedView ledView1;
-        private Hslu.Csa.Team6.RobotView.SwitchView switchView1;
         private Hslu.Csa.Team6.RobotView.ConsoleView consoleView1;
     }
 }

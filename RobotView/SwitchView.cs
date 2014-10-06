@@ -6,13 +6,13 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-using Hslu.Csa.Team6.RobotCtrl.Output;
+using Hslu.Csa.Team6.RobotCtrl;
 
 namespace Hslu.Csa.Team6.RobotView
 {
     public partial class SwitchView : UserControl
     {
-        private bool state;
+        private Switch theSwitch;
 
         public SwitchView()
         {
@@ -21,14 +21,27 @@ namespace Hslu.Csa.Team6.RobotView
 
         public bool State
         {
+            set
+            {
+                this.pictureBoxSwitch.Image = value ? Resources.Resource.SwitchOn : Resources.Resource.SwitchOff;
+            }
+        }
+
+        public Switch Switch
+        {
             get
             {
-                return this.state;
+                return this.theSwitch;
             }
             set
             {
-                this.state = value;
-                this.pictureBoxSwitch.Image = this.state ? Resources.Resource.SwitchOn : Resources.Resource.SwitchOff;
+                this.theSwitch = value;
+                this.State = this.theSwitch.SwitchEnabled;
+
+                this.theSwitch.SwitchStateChanged += (sender, args) =>
+                {
+                    this.State = args.SwitchEnabled;
+                };
             }
         }
     }
