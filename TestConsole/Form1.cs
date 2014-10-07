@@ -6,6 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using Hslu.Csa.Team6.RobotCtrl;
 
 namespace TestConsole
 {
@@ -14,8 +15,7 @@ namespace TestConsole
         public Form1()
         {
             InitializeComponent();
-
-            this.ledView1.State = true;
+            this.consoleView1.RobotConsole = new RobotConsole();
         }
     }
 }
