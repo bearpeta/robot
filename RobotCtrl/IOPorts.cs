@@ -26,15 +26,15 @@ namespace Hslu.Csa.Team6.RobotCtrl
         {
             try
             {
-                Assembly a = Assembly.LoadFrom("RobotIO.dll");
+                Assembly a = Assembly.LoadFrom("Hslu.Csa.Team6.RobotIO.dll");
                 Type[] t = a.GetTypes();
                 writeMethod = t[0].GetMethod("Write", BindingFlags.Public | BindingFlags.Static);
                 readMethod = t[0].GetMethod("Read", BindingFlags.Public | BindingFlags.Static);
             }
             catch (IOException ex)
             {
-                MessageBox.Show("RobotIO.dll nicht gefunden.\r\nIm aktuellen Projekt unter References das RobotIO Projekt hinzufügen!\r\n\r\n" + ex.Message,
-                    "RobotIO.dll nicht gefunden!", MessageBoxButtons.OK, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button1);
+                MessageBox.Show("Hslu.Csa.Team6.RobotIO.dll nicht gefunden.\r\nIm aktuellen Projekt unter References das RobotIO Projekt hinzufügen!\r\n\r\n" + ex.Message,
+                    "Hslu.Csa.Team6.RobotIO.dll nicht gefunden!", MessageBoxButtons.OK, MessageBoxIcon.Hand, MessageBoxDefaultButton.Button1);
             }
         }
         #endregion

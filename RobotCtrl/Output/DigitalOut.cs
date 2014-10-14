@@ -45,7 +45,12 @@ namespace Hslu.Csa.Team6.RobotCtrl
             get { return data; }
             set
             {
-                // Todo 
+                if (this.data != value)
+                {
+                    this.data = value;
+                    IOPort.Write(this.Port, value);
+                    OnDigitalOutputChanged(new EventArgs());
+                }
             }
         }
         #endregion

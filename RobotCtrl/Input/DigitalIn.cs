@@ -13,6 +13,7 @@ namespace Hslu.Csa.Team6.RobotCtrl
         private Thread thread;
         private bool disposed;
         private bool run;
+        private int data;
         public event EventHandler DigitalInChanged;
         #endregion
 
@@ -60,7 +61,7 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// </summary>
         public int Data
         {
-            get { return 0; /* ToDo */}
+            get { return this.data;}
         }
         #endregion
 
@@ -95,15 +96,20 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// </summary>
         private void Run()
         {
-            int oldData = -1;
             int newData;
             run = true;
             while (run)
             {
                 // Todo: Port des Roboters pollen.
                 // Falls eine Änderung detektiert wird, das Event DigitalInChanged feuern.
+                newData = IOPort.Read(this.Port);
 
+                if (newData != this.data)
+                {
+                    this.data = newData;
+                }
 
+                OnDigitalInChanged(new EventArgs());
                 Thread.Sleep(50);
             }
         }
