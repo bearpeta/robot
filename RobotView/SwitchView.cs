@@ -23,7 +23,10 @@ namespace Hslu.Csa.Team6.RobotView
         {
             set
             {
-                this.pictureBoxSwitch.Image = value ? Resources.Resource.SwitchOn : Resources.Resource.SwitchOff;
+                this.pictureBoxSwitch.Invoke((Action)(() =>
+                
+                    this.pictureBoxSwitch.Image = value ? Resources.Resource.SwitchOn : Resources.Resource.SwitchOff
+                ));  
             }
         }
 
@@ -35,14 +38,24 @@ namespace Hslu.Csa.Team6.RobotView
             }
             set
             {
+                if (this.theSwitch != null)
+                {
+                    this.theSwitch.SwitchStateChanged -= this.HandleSwitchChangedEvent;
+                }
+
                 this.theSwitch = value;
                 this.State = this.theSwitch.SwitchEnabled;
 
-                this.theSwitch.SwitchStateChanged += (sender, args) =>
+                if (this.theSwitch != null)
                 {
-                    this.State = args.SwitchEnabled;
-                };
+                    this.theSwitch.SwitchStateChanged += this.HandleSwitchChangedEvent;
+                }
             }
+        }
+
+        private void HandleSwitchChangedEvent(object sender, SwitchEventArgs args)
+        {
+            this.State = args.SwitchEnabled;
         }
     }
 }

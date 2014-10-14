@@ -38,28 +38,6 @@ namespace Hslu.Csa.Team6.RobotView
                     switchView1.Switch = this.robotConsole[Switches.Switch2];
                     switchView2.Switch = this.robotConsole[Switches.Switch3];
                     switchView3.Switch = this.robotConsole[Switches.Switch4];
-
-
-
-                    this.robotConsole[Switches.Switch1].SwitchStateChanged += (sender, e) =>
-                    {
-                        this.robotConsole[Leds.Led1].LedEnabled = e.SwitchEnabled;
-                    };
-
-                    this.robotConsole[Switches.Switch2].SwitchStateChanged += (sender, e) =>
-                    {
-                        this.robotConsole[Leds.Led2].LedEnabled = e.SwitchEnabled;
-                    };
-
-                    this.robotConsole[Switches.Switch3].SwitchStateChanged += (sender, e) =>
-                    {
-                        this.robotConsole[Leds.Led3].LedEnabled = e.SwitchEnabled;
-                    };
-
-                    this.robotConsole[Switches.Switch4].SwitchStateChanged += (sender, e) =>
-                    {
-                        this.robotConsole[Leds.Led4].LedEnabled = e.SwitchEnabled;
-                    };
                 }
             }
         }

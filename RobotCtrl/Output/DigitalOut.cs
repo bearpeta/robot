@@ -78,8 +78,16 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// <returns>den aktuellen Zustand des Bits</returns>
         public virtual bool this[int bit]
         {
-            get { return false; /* ToDo */  }
-            set { /* ToDo */ }
+            get
+            {
+                int checkBit = 0x0001 << bit;
+                return (checkBit & this.Data) == checkBit;
+            }
+            set
+            {
+                int checkBit = 0x0001 << bit;
+                this.Data ^= checkBit;
+            }
         }
         #endregion
     }

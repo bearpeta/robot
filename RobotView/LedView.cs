@@ -23,7 +23,9 @@ namespace Hslu.Csa.Team6.RobotView
         {
             set
             {
-                this.pictureBoxLed.Image = value ? Resources.Resource.LedOn : Resources.Resource.LedOff;
+                this.pictureBoxLed.Invoke((Action)(() =>
+                  this.pictureBoxLed.Image = value ? Resources.Resource.LedOn : Resources.Resource.LedOff
+               ));
             }
         }
 
@@ -35,13 +37,24 @@ namespace Hslu.Csa.Team6.RobotView
             }
             set
             {
+                if (this.led != null)
+                {
+                    this.Led.LedStateChanged -= HandleLedChangedEvent;
+                }
+
                 this.led = value;
                 this.State = this.Led.LedEnabled;
-                this.Led.LedStateChanged += (sender, args) =>
-                    {
-                        this.State = args.LedEnabled;
-                    };
+
+                if (this.led != null)
+                {
+                    this.Led.LedStateChanged += HandleLedChangedEvent;
+                }
             }
+        }
+
+        private void HandleLedChangedEvent(object sender, LedEventArgs args)
+        {
+            this.State = args.LedEnabled;
         }
     }
 }

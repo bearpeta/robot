@@ -36,17 +36,19 @@
             // consoleView1
             // 
             this.consoleView1.BackColor = System.Drawing.Color.Black;
-            this.consoleView1.Location = new System.Drawing.Point(288, 163);
+            this.consoleView1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.consoleView1.Location = new System.Drawing.Point(0, 0);
             this.consoleView1.Name = "consoleView1";
-            this.consoleView1.Size = new System.Drawing.Size(205, 50);
-            this.consoleView1.TabIndex = 2;
+            this.consoleView1.RobotConsole = null;
+            this.consoleView1.Size = new System.Drawing.Size(272, 139);
+            this.consoleView1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(638, 455);
+            this.ClientSize = new System.Drawing.Size(272, 139);
             this.Controls.Add(this.consoleView1);
             this.Menu = this.mainMenu1;
             this.Name = "Form1";
@@ -58,6 +60,7 @@
         #endregion
 
         private Hslu.Csa.Team6.RobotView.ConsoleView consoleView1;
+
     }
 }
 

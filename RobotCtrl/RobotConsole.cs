@@ -39,6 +39,26 @@ namespace Hslu.Csa.Team6.RobotCtrl
             {
                 switches[i] = new Switch(digitalIn, (Switches)i);
             }
+
+            this[Switches.Switch1].SwitchStateChanged += (sender, e) =>
+            {
+                this[Leds.Led1].LedEnabled = e.SwitchEnabled;
+            };
+
+            this[Switches.Switch2].SwitchStateChanged += (sender, e) =>
+            {
+                this[Leds.Led2].LedEnabled = e.SwitchEnabled;
+            };
+
+            this[Switches.Switch3].SwitchStateChanged += (sender, e) =>
+            {
+                this[Leds.Led3].LedEnabled = e.SwitchEnabled;
+            };
+
+            this[Switches.Switch4].SwitchStateChanged += (sender, e) =>
+            {
+                this[Leds.Led4].LedEnabled = e.SwitchEnabled;
+            };
         }
 
 

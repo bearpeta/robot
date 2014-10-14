@@ -47,7 +47,6 @@
             this.ledView0.Location = new System.Drawing.Point(5, 5);
             this.ledView0.Name = "ledView0";
             this.ledView0.Size = new System.Drawing.Size(20, 20);
-            this.ledView0.State = false;
             this.ledView0.TabIndex = 0;
             // 
             // ledView1
@@ -55,7 +54,6 @@
             this.ledView1.Location = new System.Drawing.Point(30, 5);
             this.ledView1.Name = "ledView1";
             this.ledView1.Size = new System.Drawing.Size(20, 20);
-            this.ledView1.State = false;
             this.ledView1.TabIndex = 1;
             // 
             // ledView2
@@ -63,7 +61,6 @@
             this.ledView2.Location = new System.Drawing.Point(55, 5);
             this.ledView2.Name = "ledView2";
             this.ledView2.Size = new System.Drawing.Size(20, 20);
-            this.ledView2.State = false;
             this.ledView2.TabIndex = 2;
             // 
             // ledView3
@@ -71,7 +68,6 @@
             this.ledView3.Location = new System.Drawing.Point(80, 5);
             this.ledView3.Name = "ledView3";
             this.ledView3.Size = new System.Drawing.Size(20, 20);
-            this.ledView3.State = false;
             this.ledView3.TabIndex = 3;
             // 
             // switchView0
