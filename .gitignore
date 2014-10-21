@@ -3,9 +3,11 @@
 /RobotView/bin/*
 /TestConsole/bin/*
 /TestMotor/bin/*
+/TestDrive/bin/*
 /RobotCtrl/obj/*
 /RobotIO/obj/*
 /RobotView/obj/*
 /TestConsole/obj/*
 /TestMotor/obj/*
+/TestDrive/obj/*
 /Robot.suo

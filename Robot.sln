@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotIO", "RobotIO\RobotIO.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMotor", "TestMotor\TestMotor.csproj", "{A14D2BBD-9C21-4529-A614-CA1DFF6C2580}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDrive", "TestDrive\TestDrive.csproj", "{B1E4DEAE-7F98-43D9-ACD9-F2E5C317B5E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,12 @@ Global
 		{A14D2BBD-9C21-4529-A614-CA1DFF6C2580}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A14D2BBD-9C21-4529-A614-CA1DFF6C2580}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A14D2BBD-9C21-4529-A614-CA1DFF6C2580}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B1E4DEAE-7F98-43D9-ACD9-F2E5C317B5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E4DEAE-7F98-43D9-ACD9-F2E5C317B5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E4DEAE-7F98-43D9-ACD9-F2E5C317B5E3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B1E4DEAE-7F98-43D9-ACD9-F2E5C317B5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E4DEAE-7F98-43D9-ACD9-F2E5C317B5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E4DEAE-7F98-43D9-ACD9-F2E5C317B5E3}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
