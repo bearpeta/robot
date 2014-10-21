@@ -3,7 +3,7 @@ using System.Linq;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace TestConsole
+namespace Hslu.Csa.Team6.TestConsole
 {
     static class Program
     {

@@ -1,4 +1,4 @@
-﻿namespace TestConsole
+﻿namespace Hslu.Csa.Team6.TestConsole
 {
     partial class Form1
     {

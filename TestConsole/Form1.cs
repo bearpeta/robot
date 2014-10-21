@@ -8,7 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using Hslu.Csa.Team6.RobotCtrl;
 
-namespace TestConsole
+namespace Hslu.Csa.Team6.TestConsole
 {
     public partial class Form1 : Form
     {
