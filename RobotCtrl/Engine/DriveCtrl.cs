@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading;
 
 namespace Hslu.Csa.Team6.RobotCtrl
 {
@@ -43,8 +44,12 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// </summary>
         public bool PowerRight
         {
-            get { return false; } // ToDo
-            set { } // ToDo
+            get
+            {
+                int checkBit = 0x0001;
+                return (checkBit & DriveState) == checkBit; 
+            }
+            set { DriveState = (value) ? DriveState | 0x01 : DriveState & ~0x01; }
         }
 
 
@@ -53,8 +58,12 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// </summary>
         public bool PowerLeft
         {
-            get { return false; } // ToDo
-            set { } // ToDo
+            get
+            {
+                int checkBit = 0x0002;
+                return (checkBit & DriveState) == checkBit; 
+            }
+            set { DriveState = (value) ? DriveState | 0x02 : DriveState & ~0x02; }
         }
 
 
@@ -63,8 +72,8 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// </summary>
         public int DriveState
         {
-            get { return 0; } // ToDo
-            set { } // ToDo
+            get { return IOPort.Read(ioAddress); }
+            set { IOPort.Write(ioAddress, value); }
         }
         #endregion
 
@@ -76,7 +85,12 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// </summary>
         public void Reset()
         {
-            // ToDo
+            DriveState = 0x00;
+            Thread.Sleep(5);
+            DriveState = 0x80;
+            Thread.Sleep(5);
+            DriveState = 0x00;
+            Thread.Sleep(5);
         }
         #endregion
 
