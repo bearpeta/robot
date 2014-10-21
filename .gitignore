@@ -2,8 +2,10 @@
 /RobotIO/bin/*
 /RobotView/bin/*
 /TestConsole/bin/*
+/TestMotor/bin/*
 /RobotCtrl/obj/*
 /RobotIO/obj/*
 /RobotView/obj/*
 /TestConsole/obj/*
+/TestMotor/obj/*
 /Robot.suo
