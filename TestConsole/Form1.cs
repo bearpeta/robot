@@ -15,7 +15,9 @@ namespace Hslu.Csa.Team6.TestConsole
         public Form1()
         {
             InitializeComponent();
-            this.consoleView1.RobotConsole = new RobotConsole();
+            Robot robot = new Robot();
+
+            this.consoleView1.RobotConsole = robot.RobotConsole;
         }
     }
 }

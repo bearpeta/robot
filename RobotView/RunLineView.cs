@@ -15,9 +15,12 @@ namespace Hslu.Csa.Team6.RobotView
         public RunLineView()
         {
             InitializeComponent();
+            this.Length = float.Parse(numericUpDownLength.Text) / 1000;
         }
 
         public Drive Drive { get; set; }
+
+        public float Length { get; private set; }
 
         public float Speed { get; set; }
 
@@ -25,7 +28,17 @@ namespace Hslu.Csa.Team6.RobotView
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Drive.RunLine(float.Parse(numericUpDownLength.Text)/1000, Speed, Acceleration);
+            this.Start();
+        }
+
+        public void Start()
+        {
+            Drive.RunLine(this.Length, Speed, Acceleration);
+        }
+
+        private void numericUpDownLength_ValueChanged(object sender, EventArgs e)
+        {
+            this.Length = float.Parse(numericUpDownLength.Text) / 1000;
         }
     }
 }

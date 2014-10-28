@@ -30,7 +30,6 @@
         {
             this.btnStart = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.radioButtonLeft = new System.Windows.Forms.RadioButton();
@@ -56,14 +55,6 @@
             this.label1.Size = new System.Drawing.Size(100, 20);
             this.label1.Text = "RunArc";
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(134, 80);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(52, 20);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "+/-";
-            // 
             // label2
             // 
             this.label2.Location = new System.Drawing.Point(2, 80);
@@ -86,6 +77,7 @@
             this.radioButtonLeft.Size = new System.Drawing.Size(60, 20);
             this.radioButtonLeft.TabIndex = 12;
             this.radioButtonLeft.Text = "Left";
+            this.radioButtonLeft.CheckedChanged += new System.EventHandler(this.radioButtonLeft_CheckedChanged);
             // 
             // radioButtonRight
             // 
@@ -117,6 +109,7 @@
             0,
             0,
             0});
+            this.numericUpDownRadius.ValueChanged += new System.EventHandler(this.numericUpDownRadius_ValueChanged);
             // 
             // numericUpDownAngle
             // 
@@ -139,6 +132,7 @@
             0,
             0,
             0});
+            this.numericUpDownAngle.ValueChanged += new System.EventHandler(this.numericUpDownAngle_ValueChanged);
             // 
             // RunArcView
             // 
@@ -149,7 +143,6 @@
             this.Controls.Add(this.radioButtonRight);
             this.Controls.Add(this.radioButtonLeft);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnStart);
@@ -163,7 +156,6 @@
 
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RadioButton radioButtonLeft;

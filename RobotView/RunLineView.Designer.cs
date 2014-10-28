@@ -88,6 +88,7 @@
             0,
             0,
             0});
+            this.numericUpDownLength.ValueChanged += new System.EventHandler(this.numericUpDownLength_ValueChanged);
             // 
             // RunLineView
             // 

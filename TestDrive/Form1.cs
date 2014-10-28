@@ -14,6 +14,8 @@ namespace Hslu.Csa.Team6.TestDrive
     {
         public Form1()
         {
+            Robot robot = new Robot();
+
             InitializeComponent();
             runLineView1.Speed = commonRunParameters1.Speed;
             runLineView1.Acceleration = commonRunParameters1.Acceleration;
@@ -21,13 +23,35 @@ namespace Hslu.Csa.Team6.TestDrive
             runArcView1.Acceleration = commonRunParameters1.Acceleration;
             runTurnView1.Speed = commonRunParameters1.Speed;
             runTurnView1.Acceleration = commonRunParameters1.Acceleration;
-            Drive drive = new Drive();
-            drive.Power = true;
-            
-            runLineView1.Drive = drive;
-            runArcView1.Drive = drive;
-            runTurnView1.Drive = drive;
-            driveView1.Drive = drive;
+
+            robot.Drive.Power = true;
+
+            runLineView1.Drive = robot.Drive;
+            runArcView1.Drive = robot.Drive;
+            runTurnView1.Drive = robot.Drive;
+            driveView1.Drive = robot.Drive;
+
+            robot.RobotConsole[Switches.Switch1].SwitchStateChanged += (sender,e) =>
+            {
+                runLineView1.Start();
+            };
+
+            robot.RobotConsole[Switches.Switch2].SwitchStateChanged += (sender, e) =>
+            {
+                runTurnView1.Start();
+            };
+
+            robot.RobotConsole[Switches.Switch3].SwitchStateChanged += (sender, e) =>
+            {
+                runArcView1.TurnLeft = true;
+                runArcView1.Start();
+            };
+
+            robot.RobotConsole[Switches.Switch4].SwitchStateChanged += (sender, e) =>
+            {
+                runArcView1.TurnLeft = false;
+                runArcView1.Start();
+            };
         }
 
         private void commonRunParameters1_SpeedChanged(object sender, EventArgs e)

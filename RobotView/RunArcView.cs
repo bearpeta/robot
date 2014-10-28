@@ -15,9 +15,18 @@ namespace Hslu.Csa.Team6.RobotView
         public RunArcView()
         {
             InitializeComponent();
+            this.Radius = float.Parse(numericUpDownRadius.Text) / 1000;
+            this.Angle = float.Parse(numericUpDownAngle.Text);
+            this.TurnLeft = radioButtonLeft.Checked;
         }
 
         public Drive Drive { get; set; }
+
+        public bool TurnLeft { get; set; }
+
+        public float Angle { get; private set; }
+
+        public float Radius { get; private set; }
 
         public float Speed { get; set; }
 
@@ -25,14 +34,35 @@ namespace Hslu.Csa.Team6.RobotView
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            if(radioButtonLeft.Checked){
-                this.Drive.RunArcLeft(float.Parse(numericUpDownRadius.Text)/1000, float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
+            this.Start();
+        }
+
+        public void Start()
+        {
+            if (this.TurnLeft)
+            {
+                this.Drive.RunArcLeft(this.Radius, this.Angle, this.Speed, this.Acceleration);
+            }
+            else
+            {
+                this.Drive.RunArcRight(this.Radius, this.Angle, this.Speed, this.Acceleration);
             }
 
-            else if (radioButtonRight.Checked) {
-                this.Drive.RunArcRight(float.Parse(numericUpDownRadius.Text)/1000, float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
-            }
-           
+        }
+
+        private void numericUpDownRadius_ValueChanged(object sender, EventArgs e)
+        {
+            this.Radius = float.Parse(numericUpDownRadius.Text) / 1000;
+        }
+
+        private void numericUpDownAngle_ValueChanged(object sender, EventArgs e)
+        {
+            this.Angle = float.Parse(numericUpDownAngle.Text);
+        }
+
+        private void radioButtonLeft_CheckedChanged(object sender, EventArgs e)
+        {
+            this.TurnLeft = radioButtonLeft.Checked;
         }
     }
 }

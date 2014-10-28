@@ -15,9 +15,12 @@ namespace Hslu.Csa.Team6.RobotView
         public RunTurnView()
         {
             InitializeComponent();
+            this.Angle = float.Parse(numericUpDownAngle.Text);
         }
 
         public Drive Drive { get; set; }
+
+        public float Angle { get; private set; }
 
         public float Speed { get; set; }
 
@@ -25,7 +28,17 @@ namespace Hslu.Csa.Team6.RobotView
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            this.Drive.RunTurn(float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
+            this.Start();
+        }
+
+        public void Start()
+        {
+            this.Drive.RunTurn(this.Angle, this.Speed, this.Acceleration);
+        }
+
+        private void numericUpDownAngle_ValueChanged(object sender, EventArgs e)
+        {
+            this.Angle = float.Parse(numericUpDownAngle.Text);
         }
     }
 }
