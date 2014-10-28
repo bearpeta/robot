@@ -25,7 +25,7 @@ namespace Hslu.Csa.Team6.RobotView
 
         private void btnStart_Click(object sender, EventArgs e)
         {
-            this.Drive.RunTurn(1, this.Speed, this.Acceleration);
+            this.Drive.RunTurn(float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
         }
     }
 }

@@ -30,12 +30,32 @@
         private void InitializeComponent()
         {
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
+            this.runArcView1 = new Hslu.Csa.Team6.RobotView.RunArcView();
+            this.runTurnView1 = new Hslu.Csa.Team6.RobotView.RunTurnView();
             this.runLineView1 = new Hslu.Csa.Team6.RobotView.RunLineView();
             this.commonRunParameters1 = new Hslu.Csa.Team6.RobotView.CommonRunParameters();
             this.driveView1 = new Hslu.Csa.Team6.RobotView.DriveView();
-            this.runTurnView1 = new Hslu.Csa.Team6.RobotView.RunTurnView();
-            this.runArcView1 = new Hslu.Csa.Team6.RobotView.RunArcView();
             this.SuspendLayout();
+            // 
+            // runArcView1
+            // 
+            this.runArcView1.Acceleration = 0F;
+            this.runArcView1.Drive = null;
+            this.runArcView1.Location = new System.Drawing.Point(355, 184);
+            this.runArcView1.Name = "runArcView1";
+            this.runArcView1.Size = new System.Drawing.Size(426, 143);
+            this.runArcView1.Speed = 0F;
+            this.runArcView1.TabIndex = 4;
+            // 
+            // runTurnView1
+            // 
+            this.runTurnView1.Acceleration = 0F;
+            this.runTurnView1.Drive = null;
+            this.runTurnView1.Location = new System.Drawing.Point(355, 102);
+            this.runTurnView1.Name = "runTurnView1";
+            this.runTurnView1.Size = new System.Drawing.Size(424, 88);
+            this.runTurnView1.Speed = 0F;
+            this.runTurnView1.TabIndex = 3;
             // 
             // runLineView1
             // 
@@ -65,20 +85,6 @@
             this.driveView1.Name = "driveView1";
             this.driveView1.Size = new System.Drawing.Size(290, 300);
             this.driveView1.TabIndex = 0;
-            // 
-            // runTurnView1
-            // 
-            this.runTurnView1.Location = new System.Drawing.Point(371, 113);
-            this.runTurnView1.Name = "runTurnView1";
-            this.runTurnView1.Size = new System.Drawing.Size(150, 63);
-            this.runTurnView1.TabIndex = 3;
-            // 
-            // runArcView1
-            // 
-            this.runArcView1.Location = new System.Drawing.Point(371, 207);
-            this.runArcView1.Name = "runArcView1";
-            this.runArcView1.Size = new System.Drawing.Size(150, 143);
-            this.runArcView1.TabIndex = 4;
             // 
             // Form1
             // 

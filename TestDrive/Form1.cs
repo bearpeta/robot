@@ -17,10 +17,16 @@ namespace Hslu.Csa.Team6.TestDrive
             InitializeComponent();
             runLineView1.Speed = commonRunParameters1.Speed;
             runLineView1.Acceleration = commonRunParameters1.Acceleration;
+            runArcView1.Speed = commonRunParameters1.Speed;
+            runArcView1.Acceleration = commonRunParameters1.Acceleration;
+            runTurnView1.Speed = commonRunParameters1.Speed;
+            runTurnView1.Acceleration = commonRunParameters1.Acceleration;
             Drive drive = new Drive();
             drive.Power = true;
             
             runLineView1.Drive = drive;
+            runArcView1.Drive = drive;
+            runTurnView1.Drive = drive;
             driveView1.Drive = drive;
         }
 
