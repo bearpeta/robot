@@ -10,7 +10,7 @@ namespace Hslu.Csa.Team6.RobotCtrl
 
         #region members
         private RobotConsole robotConsole;
-        //private Radar radar;
+        private Radar radar;
         private Drive drive;
         #endregion
 
@@ -19,7 +19,7 @@ namespace Hslu.Csa.Team6.RobotCtrl
         public Robot()
         {
             this.robotConsole = new RobotConsole();
-           // this.radar = new Radar(Constants.IORadarSensor);
+            this.radar = new Radar(Constants.IORadarSensor);
             this.drive = new Drive();
         }
 
@@ -48,10 +48,10 @@ namespace Hslu.Csa.Team6.RobotCtrl
         /// <summary>
         /// Liefert den Radar des Roboters
         /// </summary>
-        //public Radar Radar
-        //{
-        //    get { return this.radar; }
-        //}
+        public Radar Radar
+        {
+            get { return this.radar; }
+        }
 
 
         /// <summary>

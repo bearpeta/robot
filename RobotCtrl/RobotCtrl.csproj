@@ -58,6 +58,7 @@
     <Compile Include="Constants.cs" />
     <Compile Include="Drive\Drive.cs" />
     <Compile Include="Drive\DriveInfo.cs" />
+    <Compile Include="Radar\Radar.cs" />
     <Compile Include="Drive\Track.cs" />
     <Compile Include="Drive\TrackArcLeft.cs" />
     <Compile Include="Drive\TrackArcRight.cs" />
