@@ -105,13 +105,18 @@
             0});
             this.numericUpDownRadius.Location = new System.Drawing.Point(223, 44);
             this.numericUpDownRadius.Maximum = new decimal(new int[] {
-            10000,
+            100000,
             0,
             0,
             0});
             this.numericUpDownRadius.Name = "numericUpDownRadius";
             this.numericUpDownRadius.Size = new System.Drawing.Size(100, 24);
             this.numericUpDownRadius.TabIndex = 14;
+            this.numericUpDownRadius.Value = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             // 
             // numericUpDownAngle
             // 
@@ -129,6 +134,11 @@
             this.numericUpDownAngle.Name = "numericUpDownAngle";
             this.numericUpDownAngle.Size = new System.Drawing.Size(100, 24);
             this.numericUpDownAngle.TabIndex = 15;
+            this.numericUpDownAngle.Value = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
             // 
             // RunArcView
             // 

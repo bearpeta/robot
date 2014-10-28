@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.domainUpDownLength = new System.Windows.Forms.DomainUpDown();
+            this.numericUpDownLength = new System.Windows.Forms.NumericUpDown();
             this.SuspendLayout();
             // 
             // label1
@@ -67,19 +67,33 @@
             this.button2.Text = "Start";
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // domainUpDownLength
+            // numericUpDownLength
             // 
-            this.domainUpDownLength.Location = new System.Drawing.Point(205, 38);
-            this.domainUpDownLength.Name = "domainUpDownLength";
-            this.domainUpDownLength.Size = new System.Drawing.Size(78, 24);
-            this.domainUpDownLength.TabIndex = 4;
-            this.domainUpDownLength.Text = "1000";
+            this.numericUpDownLength.Increment = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.numericUpDownLength.Location = new System.Drawing.Point(202, 38);
+            this.numericUpDownLength.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.numericUpDownLength.Name = "numericUpDownLength";
+            this.numericUpDownLength.Size = new System.Drawing.Size(100, 24);
+            this.numericUpDownLength.TabIndex = 7;
+            this.numericUpDownLength.Value = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             // 
             // RunLineView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.Controls.Add(this.domainUpDownLength);
+            this.Controls.Add(this.numericUpDownLength);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
@@ -96,6 +110,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.DomainUpDown domainUpDownLength;
+        private System.Windows.Forms.NumericUpDown numericUpDownLength;
     }
 }

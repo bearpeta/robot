@@ -26,11 +26,11 @@ namespace Hslu.Csa.Team6.RobotView
         private void btnStart_Click(object sender, EventArgs e)
         {
             if(radioButtonLeft.Checked){
-                this.Drive.RunArcLeft(float.Parse(numericUpDownRadius.Text), float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
+                this.Drive.RunArcLeft(float.Parse(numericUpDownRadius.Text)/1000, float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
             }
 
             else if (radioButtonRight.Checked) {
-                this.Drive.RunArcRight(float.Parse(numericUpDownRadius.Text), float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
+                this.Drive.RunArcRight(float.Parse(numericUpDownRadius.Text)/1000, float.Parse(numericUpDownAngle.Text), this.Speed, this.Acceleration);
             }
            
         }

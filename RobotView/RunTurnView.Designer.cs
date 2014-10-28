@@ -88,6 +88,11 @@
             this.numericUpDownAngle.Name = "numericUpDownAngle";
             this.numericUpDownAngle.Size = new System.Drawing.Size(100, 24);
             this.numericUpDownAngle.TabIndex = 5;
+            this.numericUpDownAngle.Value = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
             // 
             // RunTurnView
             // 

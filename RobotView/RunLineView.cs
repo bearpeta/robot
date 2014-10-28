@@ -25,7 +25,7 @@ namespace Hslu.Csa.Team6.RobotView
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Drive.RunLine(float.Parse(domainUpDownLength.Text), Speed, Acceleration);
+            Drive.RunLine(float.Parse(numericUpDownLength.Text)/1000, Speed, Acceleration);
         }
     }
 }
