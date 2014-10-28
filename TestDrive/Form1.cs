@@ -27,11 +27,15 @@ namespace Hslu.Csa.Team6.TestDrive
         private void commonRunParameters1_SpeedChanged(object sender, EventArgs e)
         {
             runLineView1.Speed = commonRunParameters1.Speed;
+            runTurnView1.Speed = commonRunParameters1.Speed;
+            runArcView1.Speed = commonRunParameters1.Speed;
         }
 
         private void commonRunParameters1_AccelerationChanged(object sender, EventArgs e)
         {
             runLineView1.Acceleration = commonRunParameters1.Acceleration;
+            runTurnView1.Acceleration = commonRunParameters1.Acceleration;
+            runArcView1.Acceleration = commonRunParameters1.Acceleration;
         }
     }
 }

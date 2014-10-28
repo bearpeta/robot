@@ -30,10 +30,22 @@
         private void InitializeComponent()
         {
             this.mainMenu1 = new System.Windows.Forms.MainMenu();
+            this.runLineView1 = new Hslu.Csa.Team6.RobotView.RunLineView();
             this.commonRunParameters1 = new Hslu.Csa.Team6.RobotView.CommonRunParameters();
             this.driveView1 = new Hslu.Csa.Team6.RobotView.DriveView();
-            this.runLineView1 = new Hslu.Csa.Team6.RobotView.RunLineView();
+            this.runTurnView1 = new Hslu.Csa.Team6.RobotView.RunTurnView();
+            this.runArcView1 = new Hslu.Csa.Team6.RobotView.RunArcView();
             this.SuspendLayout();
+            // 
+            // runLineView1
+            // 
+            this.runLineView1.Acceleration = 0F;
+            this.runLineView1.Drive = null;
+            this.runLineView1.Location = new System.Drawing.Point(355, 23);
+            this.runLineView1.Name = "runLineView1";
+            this.runLineView1.Size = new System.Drawing.Size(389, 84);
+            this.runLineView1.Speed = 0F;
+            this.runLineView1.TabIndex = 2;
             // 
             // commonRunParameters1
             // 
@@ -54,15 +66,19 @@
             this.driveView1.Size = new System.Drawing.Size(290, 300);
             this.driveView1.TabIndex = 0;
             // 
-            // runLineView1
+            // runTurnView1
             // 
-            this.runLineView1.Acceleration = 0F;
-            this.runLineView1.Drive = null;
-            this.runLineView1.Location = new System.Drawing.Point(355, 23);
-            this.runLineView1.Name = "runLineView1";
-            this.runLineView1.Size = new System.Drawing.Size(389, 84);
-            this.runLineView1.Speed = 0F;
-            this.runLineView1.TabIndex = 2;
+            this.runTurnView1.Location = new System.Drawing.Point(371, 113);
+            this.runTurnView1.Name = "runTurnView1";
+            this.runTurnView1.Size = new System.Drawing.Size(150, 63);
+            this.runTurnView1.TabIndex = 3;
+            // 
+            // runArcView1
+            // 
+            this.runArcView1.Location = new System.Drawing.Point(371, 207);
+            this.runArcView1.Name = "runArcView1";
+            this.runArcView1.Size = new System.Drawing.Size(150, 143);
+            this.runArcView1.TabIndex = 4;
             // 
             // Form1
             // 
@@ -70,6 +86,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(829, 448);
+            this.Controls.Add(this.runArcView1);
+            this.Controls.Add(this.runTurnView1);
             this.Controls.Add(this.runLineView1);
             this.Controls.Add(this.commonRunParameters1);
             this.Controls.Add(this.driveView1);
@@ -85,6 +103,8 @@
         private Hslu.Csa.Team6.RobotView.DriveView driveView1;
         private Hslu.Csa.Team6.RobotView.CommonRunParameters commonRunParameters1;
         private Hslu.Csa.Team6.RobotView.RunLineView runLineView1;
+        private Hslu.Csa.Team6.RobotView.RunTurnView runTurnView1;
+        private Hslu.Csa.Team6.RobotView.RunArcView runArcView1;
     }
 }
 
