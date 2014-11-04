@@ -4,10 +4,12 @@
 /TestConsole/bin/*
 /TestMotor/bin/*
 /TestDrive/bin/*
+/Testat/bin/*
 /RobotCtrl/obj/*
 /RobotIO/obj/*
 /RobotView/obj/*
 /TestConsole/obj/*
 /TestMotor/obj/*
 /TestDrive/obj/*
+/Testat/obj/*
 /Robot.suo
