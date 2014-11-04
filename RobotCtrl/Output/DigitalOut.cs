@@ -85,8 +85,7 @@ namespace Hslu.Csa.Team6.RobotCtrl
             }
             set
             {
-                int checkBit = 0x0001 << bit;
-                this.Data ^= checkBit;
+                this.Data = value ? this.Data | (1 << bit) : this.Data & ~(1 << bit);
             }
         }
         #endregion

@@ -9,18 +9,27 @@ namespace Hslu.Csa.Team6.Testat
 {
     internal class LedBlinker
     {
-        public void Blink(Robot robot)
+        private Robot robot;
+
+        public LedBlinker(Robot robot)
         {
+            this.robot = robot;
+        }
+
+        public void Blink()
+        {
+            bool ledEnabled = true;
+
             while (!shouldStop)
             {
-                bool ledEnabled = true;
-                robot.RobotConsole[Leds.Led1].LedEnabled = ledEnabled;
-                robot.RobotConsole[Leds.Led2].LedEnabled = ledEnabled;
-                robot.RobotConsole[Leds.Led3].LedEnabled = ledEnabled;
-                robot.RobotConsole[Leds.Led4].LedEnabled = ledEnabled;
+                Thread.Sleep(500);
+                this.robot.RobotConsole[Leds.Led1].LedEnabled = ledEnabled;
+                this.robot.RobotConsole[Leds.Led2].LedEnabled = ledEnabled;
+                this.robot.RobotConsole[Leds.Led3].LedEnabled = ledEnabled;
+                this.robot.RobotConsole[Leds.Led4].LedEnabled = ledEnabled;
 
                 ledEnabled = !ledEnabled;
-                Thread.Sleep(1000);
+               
             }
             
             // Terminate Thread
