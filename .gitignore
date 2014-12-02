@@ -5,6 +5,9 @@
 /TestMotor/bin/*
 /TestDrive/bin/*
 /Testat/bin/*
+/Testat2/bin/*
+/BluetoothClient/bin/*
+/BluetoothServer/bin/*
 /RobotCtrl/obj/*
 /RobotIO/obj/*
 /RobotView/obj/*
@@ -12,4 +15,7 @@
 /TestMotor/obj/*
 /TestDrive/obj/*
 /Testat/obj/*
+/Testat2/obj/*
+/BluetoothClient/obj/*
+/BluetoothServer/obj/*
 /Robot.suo

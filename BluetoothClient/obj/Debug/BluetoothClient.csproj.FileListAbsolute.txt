@@ -1,9 +1,0 @@
-D:\GIT\robot\BluetoothClient\bin\Debug\Hslu.Csa.Team6.BluetoothClient.exe
-D:\GIT\robot\BluetoothClient\bin\Debug\Hslu.Csa.Team6.BluetoothClient.pdb
-D:\GIT\robot\BluetoothClient\obj\Debug\ResolveAssemblyReference.cache
-D:\GIT\robot\BluetoothClient\obj\Debug\Hslu.Csa.Team6.BluetoothClient.Properties.Resources.resources
-D:\GIT\robot\BluetoothClient\obj\Debug\BluetoothClient.csproj.GenerateResource.Cache
-D:\GIT\robot\BluetoothClient\obj\Debug\Hslu.Csa.Team6.BluetoothClient.exe
-D:\GIT\robot\BluetoothClient\obj\Debug\Hslu.Csa.Team6.BluetoothClient.pdb
-D:\GIT\robot\BluetoothClient\bin\Debug\TA_BluetoothXP.dll
-D:\GIT\robot\BluetoothClient\bin\Debug\InTheHand.Net.Personal.dll

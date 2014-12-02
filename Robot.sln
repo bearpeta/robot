@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testat", "Testat\Testat.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothClient", "BluetoothClient\BluetoothClient.csproj", "{F2329CB6-A174-4486-82B6-9C594BDD9184}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testat2", "Testat2\Testat2.csproj", "{A2A22C59-FA55-4F6E-8AB1-F42BF689B984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothServer", "BluetoothServer\BluetoothServer.csproj", "{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,16 @@ Global
 		{F2329CB6-A174-4486-82B6-9C594BDD9184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2329CB6-A174-4486-82B6-9C594BDD9184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2329CB6-A174-4486-82B6-9C594BDD9184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A22C59-FA55-4F6E-8AB1-F42BF689B984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A22C59-FA55-4F6E-8AB1-F42BF689B984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A22C59-FA55-4F6E-8AB1-F42BF689B984}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A2A22C59-FA55-4F6E-8AB1-F42BF689B984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A22C59-FA55-4F6E-8AB1-F42BF689B984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2A22C59-FA55-4F6E-8AB1-F42BF689B984}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
