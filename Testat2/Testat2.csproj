@@ -54,8 +54,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Decoder.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BluetoothServer\BluetoothServer.csproj">
+      <Project>{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}</Project>
+      <Name>BluetoothServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RobotCtrl\RobotCtrl.csproj">
+      <Project>{4BD7751F-162C-4BEE-94DD-A6690E8415F1}</Project>
+      <Name>RobotCtrl</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
   <ProjectExtensions>
