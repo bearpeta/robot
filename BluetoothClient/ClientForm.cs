@@ -105,11 +105,16 @@ namespace Hslu.Csa.Team6.BluetoothClient
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
-            string[] lines = textBoxCommands.Text.Split(new string[] { Environment.NewLine }, StringSplitOptions.None);
+            
+            List<String> lines = new List<string>(textBoxCommands.Text.Split(new string[] { Environment.NewLine }, StringSplitOptions.None));
+            lines.RemoveAt(lines.Count - 1);
+            lines.Add("Start");
 
-            foreach (String line in lines) {
-                Console.WriteLine(line);
-            }
+            //foreach (String line in lines) {
+            //    Console.WriteLine(line);
+            //}
+            ServerConnection connection = new ServerConnection(getSelectedRobotMAC());
+            connection.SendCommands(lines);
         }
     }
 }
