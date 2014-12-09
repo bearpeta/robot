@@ -67,6 +67,10 @@
       <Project>{4BD7751F-162C-4BEE-94DD-A6690E8415F1}</Project>
       <Name>RobotCtrl</Name>
     </ProjectReference>
+    <ProjectReference Include="..\RobotIO\RobotIO.csproj">
+      <Project>{85C43A5A-55DC-48D0-86F0-E9AC6D2FF744}</Project>
+      <Name>RobotIO</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
   <ProjectExtensions>

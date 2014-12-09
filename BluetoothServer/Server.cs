@@ -39,7 +39,7 @@ namespace Hslu.Csa.Team6.BluetoothServer
                 // set device Name
                 BluetoothRadio.PrimaryRadio.Name = "Team 6 Robot";
                 // desired service
-                Guid serviceId = BluetoothServiceList.Robot11;
+                Guid serviceId = BluetoothServiceList.Robot20;
                 // start new service
                 service = new BluetoothService();
                 service.CreateService(serviceId);
