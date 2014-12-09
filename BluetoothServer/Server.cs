@@ -46,43 +46,43 @@ namespace Hslu.Csa.Team6.BluetoothServer
                 Console.WriteLine("Service " + serviceId.ToString() + " started.");
 
                 BluetoothClient client;
-                System.Net.Sockets.NetworkStream ns;
-                Console.WriteLine("wait for incoming connections...");
+
                 while (true)
                 {
+                    Console.WriteLine("wait for incoming connections...");
+
                     // accept bluetooth connection
                     client = service.WaitForConnection();
                     Console.WriteLine("Incoming connection " + client.GetSocket().RemoteEndPoint);
 
                     // transform into network stream
-                    ns = client.GetStream();
-
-                    // Output data to stream
-                    StreamReader sr = new StreamReader(ns);
-                    StreamWriter sw = new StreamWriter(ns);
-
-                    List<string> commands = new List<string>();
-
-                    while (!sr.EndOfStream)
+                    using (System.Net.Sockets.NetworkStream ns = client.GetStream())
                     {
-                        string command = sr.ReadLine();
-                        if (command.Equals("Start", StringComparison.InvariantCultureIgnoreCase))
+                        // Output data to stream
+                        StreamReader sr = new StreamReader(ns);
+                        StreamWriter sw = new StreamWriter(ns);
+
+                        List<string> commands = new List<string>();
+
+                        while (!sr.EndOfStream)
                         {
-                            sw.WriteLine("Commands recieved.");
-                            this.OnCommandsRecieved(this, new CommandsRecievedEventArgs(commands));
-                            commands = new List<string>();
-                            sw.Flush();
+                            string command = sr.ReadLine();
+                            if (command.Equals("Start", StringComparison.InvariantCultureIgnoreCase))
+                            {
+                                sw.WriteLine("Commands recieved.");
+                                this.OnCommandsRecieved(this, new CommandsRecievedEventArgs(commands));
+                                commands = new List<string>();
+                                sw.Flush();
+                            }
+                            else
+                            {
+                                commands.Add(command);
+                            }
                         }
-                        else
-                        {
-                            commands.Add(command);
-                        }
+
+                        sw.Flush();
+                        client.Close();
                     }
-
-                    sw.Flush();
-                    client.Close();
-
-
                 }
             }
             else

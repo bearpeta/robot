@@ -1,0 +1,5 @@
+D:\GIT\robot\Testat2FileServer\obj\Release\ResolveAssemblyReference.cache
+D:\GIT\robot\Testat2FileServer\bin\Release\Testat2FileServer.exe
+D:\GIT\robot\Testat2FileServer\bin\Release\Testat2FileServer.pdb
+D:\GIT\robot\Testat2FileServer\obj\Release\Testat2FileServer.exe
+D:\GIT\robot\Testat2FileServer\obj\Release\Testat2FileServer.pdb

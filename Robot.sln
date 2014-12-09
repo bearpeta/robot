@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testat2", "Testat2\Testat2.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothServer", "BluetoothServer\BluetoothServer.csproj", "{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testat2FileServer", "Testat2FileServer\Testat2FileServer.csproj", "{0114003D-71CC-4334-97EF-E65A17F375EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,12 @@ Global
 		{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1F58E3C-4A0E-48C2-A8CB-7B8F031810B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0114003D-71CC-4334-97EF-E65A17F375EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0114003D-71CC-4334-97EF-E65A17F375EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0114003D-71CC-4334-97EF-E65A17F375EE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0114003D-71CC-4334-97EF-E65A17F375EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0114003D-71CC-4334-97EF-E65A17F375EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0114003D-71CC-4334-97EF-E65A17F375EE}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
